@@ -1,0 +1,2 @@
+(function($){"use strict";})(jQuery);class TVC_GTM_Enhanced{constructor(options={}){this.options={tracking_option:"UA",};if(options){Object.assign(this.options,options);}}
+is_add_remarketing_tags(){if(this.options.is_admin==false&&this.options.ads_tracking_id!=""&&(this.options.remarketing_tags==1||this.options.dynamic_remarketing_tags==1)){return true;}else{return false;}}}
